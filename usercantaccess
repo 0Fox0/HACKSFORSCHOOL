@@ -1,0 +1,3 @@
+alert("Sorry. The user can't access this page.");
+document.loacation.reload()
+setTimeout(function(){ document.write("Page deleted"); }, 3000);
